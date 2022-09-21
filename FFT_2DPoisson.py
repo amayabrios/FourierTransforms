@@ -1,6 +1,7 @@
 #from numpy import *
 #from matplotlib import pyplot as plt
 #from mpl_toolkits.mplot3d import Axes3D
+#test update process
 class 2DPoisson():
 '''solve Poisson's equation in 2D: 0 = c^2(u_xx + u_yy) + f(x, y)'''
     def __init__(self, N1):
