@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 
 
 class Alias:
-    def __init__(self, L, N):
+    def __init__(self, L:float, N:int):
         self.L = L
         self.N = N
         self.dt = L/N
@@ -34,5 +34,6 @@ class Alias:
         plt.plot(omega_fine, ghat)
         plt.show()
 
-#alias = Alais(4*pi, 2**6)
-#alias.display()
+
+alias = Alias(4*pi, 2**6)
+alias.display()
