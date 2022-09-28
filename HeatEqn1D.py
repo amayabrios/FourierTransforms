@@ -66,12 +66,12 @@ class Heat1D:
         T, X = meshgrid(self.t, self.x)
         ax = plt.axes(projection='3d')
         ax.plot_surface(T, X, self.u, rstride=1, cstride=1, cmap='cool', edgecolor='none')
-        plt.show()
 
         # conventions
         ax.set_title('u(x, t)')
         ax.set_xlabel('time')
         ax.set_ylabel('x')
+        plt.show()
 
 
 def main():
