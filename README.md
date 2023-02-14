@@ -3,8 +3,6 @@
 A composition of various data visualizations learned in a Fourier analysis and transforms class. The course was math based so the code was originally hard coded as function was the priority, not "pretty" code. In recreating the projects, my new goal is to create classes of various transforms to automate most if not all the visuals with minimal input variables. 
 
 ### Fast Fourier Transform (FFT)
-#### Advantages 
-#### Common Missteps 
 
 ### Aliasing
 
